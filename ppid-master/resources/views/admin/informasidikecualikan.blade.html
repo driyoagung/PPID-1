@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Informasi Serta Merta</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="icon" href="img/logo/logo.png" />
+        <style>
+            /* Ensure the dropdown stays hidden until hovered */
+            .group:hover .dropdown-menu {
+                display: block;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <!-- Header -->
+        <header class="bg-white shadow fixed top-0 left-0 w-full z-10">
+            <div
+                class="container mx-auto px-4 py-4 flex justify-between items-center"
+            >
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <img
+                            src="img/logo/logo.png"
+                            alt="Logo"
+                            class="pl-6 h-12 mr-0"
+                        />
+                        <div>
+                            <h1 class="text-[20px] font-bold">
+                                PPID KOTA SURAKARTA
+                            </h1>
+                            <h1 class="text-[12px] font-thin">
+                                Pejabat Pengelola Informasi Dan Dokumentasi
+                            </h1>
+                        </div>
+                    </a>
+                </div>
+                <nav class="pr-6 flex items-center space-x-6 text-sm font-bold">
+                    <a href="/" class="text-black hover:text-[#4477ce]"
+                        >BERANDA</a
+                    >
+                    <div class="relative group">
+                        <button class="text-black hover:text-[#4477ce]">
+                            PROFIL
+                        </button>
+                        <div
+                            class="dropdown-menu hidden absolute bg-gray-100 shadow-lg rounded mt-1 w-48"
+                        >
+                            <a
+                                href="profilpimpinanpemkot.html"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Profil Pimpinan Pemkot Surakarta</a
+                            >
+                            <a
+                                href="profilppid.html"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Profil PPID</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Bagan Organisasi PPID</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Visi & Misi</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Dasar Hukum</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Maklumat Pelayanan</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Mekanisme Pelayanan</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Link PPID Pelaksana</a
+                            >
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <button class="text-black hover:text-[#4477ce]">
+                            INFORMASI PUBLIK
+                        </button>
+                        <div
+                            class="dropdown-menu hidden absolute bg-gray-100 shadow-lg rounded mt-1 w-48"
+                        >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Daftar Informasi Publik</a
+                            >
+                            <a
+                                href="/informasiberkala"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Informasi Berkala</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Informasi Serta Merta</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Informasi Setiap Saat</a
+                            >
+                            <a
+                                href="#"
+                                class="block px-4 py-3 text-black hover:bg-[#4477ce] hover:text-white"
+                                >Informasi Dikecualikan</a
+                            >
+                        </div>
+                    </div>
+                    <a href="#" class="text-black hover:text-[#4477ce]"
+                        >BERITA</a
+                    >
+                    <a href="#" class="text-black hover:text-[#4477ce]"
+                        >LAPORAN</a
+                    >
+                    <a href="#" class="text-black hover:text-[#4477ce]"
+                        >OPEN DATA</a
+                    >
+                    <a href="#" class="text-black hover:text-[#4477ce]"
+                        >KONTAK</a
+                    >
+                    <a href="#" class="text-black hover:text-[#4477ce]"
+                        >COVID-19</a
+                    >
+                    <button
+                        onclick="window.location.href='login.html'"
+                        class="border-2 border-[#4477ce] text-black px-4 py-2 rounded-lg hover:bg-[#4477ce] hover:text-white transition-colors"
+                    >
+                        Login
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="max-w-7xl mx-auto mt-8">
+            <h1
+                class="text-3xl text-white font-bold mb-4 pt-4 text-center h-20 bg-gradient-to-r from-[#4477CE] to-[#223C68]"
+            >
+                Informasi Serta Merta
+            </h1>
+            <section class="mt-6 bg-white shadow rounded p-6">
+                <table class="min-w-full text-sm text-left text-gray-500">
+                    <thead class="bg-gray-100 text-gray-700">
+                        <tr>
+                            <th class="px-6 py-3">Jenis</th>
+                            <th class="px-6 py-3">Isi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Ringkasan Informasi
+                            </td>
+                            <td class="px-6 py-4">
+                                Berisi Daftar Informasi Dikecualikan Pemerintah
+                                Kota Surakarta
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-50 border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Pejabat yang Menguasai Informasi
+                            </td>
+                            <td class="px-6 py-4">PPID</td>
+                        </tr>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Penanggungjawab Informasi
+                            </td>
+                            <td class="px-6 py-4">PPID</td>
+                        </tr>
+                        <tr class="bg-gray-50 border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Waktu Pembuatan Informasi
+                            </td>
+                            <td class="px-6 py-4">2024</td>
+                        </tr>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Bentuk Informasi yang Tersedia
+                            </td>
+                            <td class="px-6 py-4">Softfile</td>
+                        </tr>
+                        <tr class="bg-gray-50 border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Jangka Waktu Penyimpanan
+                            </td>
+                            <td class="px-6 py-4">Selama berlaku</td>
+                        </tr>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">
+                                Jenis Media yang Memuat
+                            </td>
+                            <td class="px-6 py-4">
+                                <a
+                                    href="http://ppid.surakarta.go.id/informasi/daftar-informasi-publik-dikecualikan/"
+                                    class="text-blue-500 hover:underline"
+                                    >Link</a
+                                >
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-gray-100 p-4 rounded shadow">
+                        <h2 class="font-semibold text-gray-800 mb-2">
+                            SK Daftar Informasi yang Dikecualikan :
+                        </h2>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li>Tahun 2024</li>
+                            <li>Tahun 2023</li>
+                            <li>Tahun 2022</li>
+                            <li>Tahun 2021</li>
+                            <li>Tahun 2020</li>
+                            <li>Tahun 2019</li>
+                            <li>Tahun 2018</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-100 p-4 rounded shadow">
+                        <h2 class="font-semibold text-gray-800 mb-2">
+                            Daftar Informasi Dikecualikan :
+                        </h2>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li>Tahun 2024</li>
+                            <li>Tahun 2023</li>
+                            <li>Tahun 2022</li>
+                            <li>Tahun 2021</li>
+                            <li>Tahun 2020</li>
+                            <li>Tahun 2019</li>
+                            <li>Tahun 2018</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-100 p-4 rounded shadow">
+                        <h2 class="font-semibold text-gray-800 mb-2">
+                            Dokumen Lembar Uji Konsekuensi :
+                        </h2>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li>Tahun 2024</li>
+                            <li>Tahun 2022</li>
+                            <li>Tahun 2021</li>
+                            <li>Tahun 2020</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-blue-900 text-white py-6 mt-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center"
+                >
+                    <p class="text-center md:text-left">
+                        PPID Pemerintah Kota Surakarta<br />Jl. Jend. Sudirman
+                        No.2, Kp. Baru, Kec. Ps. Kliwon, Kota Surakarta, Jawa
+                        Tengah Kode Pos 57133
+                    </p>
+                    <div
+                        class="text-center md:text-right space-y-2 md:space-y-0 md:space-x-4"
+                    >
+                        <p>
+                            Jam Pelayanan: Senin - Kamis 08:00 - 16:00 WIB,
+                            Jumat 08:00 - 14:00 WIB
+                        </p>
+                        <div
+                            class="flex justify-center md:justify-end space-x-4"
+                        >
+                            <a href="#" class="text-white hover:text-blue-400"
+                                ><img
+                                    src="path-to-facebook-icon"
+                                    alt="Facebook"
+                                    class="h-6"
+                            /></a>
+                            <a href="#" class="text-white hover:text-blue-400"
+                                ><img
+                                    src="path-to-instagram-icon"
+                                    alt="Instagram"
+                                    class="h-6"
+                            /></a>
+                            <a href="#" class="text-white hover:text-blue-400"
+                                ><img
+                                    src="path-to-youtube-icon"
+                                    alt="YouTube"
+                                    class="h-6"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
