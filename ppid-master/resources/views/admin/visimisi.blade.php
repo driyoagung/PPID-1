@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil PPID</title>
+  <title>VISI & MISI</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="{{ asset('assets/img/logo/logo.png')}}" />
   <style>
@@ -63,7 +63,7 @@
   </header>
 
     <main class="container mx-auto mt-14 bg-white p-6  px-0"> 
-    <h1 class="text-3xl text-white font-bold mb-4 pt-4 text-center h-20 bg-gradient-to-r from-[#4477CE] to-[#223C68]">Profil PPID</h1>
+    <h1 class="text-3xl text-white font-bold mb-4 pt-4 text-center h-20 bg-gradient-to-r from-[#4477CE] to-[#223C68]">VISI & MISI</h1>
     <nav class="w-full rounded-md">
         <ol class="list-reset flex">
           <li>
@@ -80,57 +80,41 @@
             <a
               href="profilpimpinanpemkot.html"
               class="text-xs text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none dark:text-primary-400"
-              >Profil PPID</a
+              >VISI & MISI</a
             >
           </li>
          
         </ol>
       </nav>
 
-        <section class="mb-8">
-            <h2 class="text-2xl text-center font-semibold mb-2">Profil</h2>
-        <div class="pl-12 pr-6">
-            <p class="mb-4 ">
-                Berdasarkan amanah Pasal 13 Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi publik, Pemerintah Kota Surakarta sebagai salah satu Badan Publik telah membentuk Pengelola Informasi dan Dokumentasi sesuai dengan Keputusan Walikota Surakarta Nomor 067/121.1 Tahun 2022 tentang Pembentukan Pengelola Informasi dan Dokumentasi Pemerintah Kota Surakarta.
-            </p>
-            <p class="mb-4 ">
-                Menurut Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik, informasi adalah keterangan, pernyataan, gagasan, dan tanda-tanda yang mengandung nilai, makna, dan pesan, baik data, fakta maupun penjelasannya yang dapat dilihat, didengar, dan dibaca yang disajikan dalam berbagai kemasan dan format sesuai dengan perkembangan teknologi informasi dan komunikasi secara elektronik ataupun nonelektronik.
-            </p>
-            <p class="mb-4 ">
-                Informasi merupakan kebutuhan pokok setiap orang. Oleh karena itu, hak memperoleh informasi termasuk hak asasi manusia. Bahkan, keterbukaan informasi publik merupakan salah satu ciri penting negara demokratis yang menjunjung tinggi kedaulatan rakyat untuk mewujudkan penyelenggaraan negara yang baik. Keterbukaan informasi publik merupakan sarana mengoptimalkan pengawasan publik terhadap penyelenggaraan negara dan Badan Publik lainnya.
-            </p>
-        </div>
+        <!-- Visi Section -->
+        <section class="mb-12">
+            <h3 class="text-xl text-center font-semibold text-gray-800 mb-4 pt-4">VISI</h3>
+            <p class="text-center text-gray-700 italic mb-6">"MEWUJUDKAN SURAKARTA SEBAGAI KOTA BUDAYA YANG MODERN, TANGGUH, GESIT, KREATIF DAN SEJAHTERA"</p>
+            <p class="list-decimal list-inside mb-4 pl-12 pr-6">Visi tersebut sebagai pemandu gerak bersama antara pemerintah dan segenap warga untuk membangun karakter Kota Surakarta, beralaskan semangat gotong royong sebagai modal sosial-budaya. Kota Surakarta terus tumbuh dan berkembang dalam aktivitas sosial, ekonomi, dan budaya, tanpa menghilangkan jati diri dan karakternya sebagai kota dengan warisan budaya yang kental, sebagai the Spirit of Java. Upaya mewujudkan kota modern dan masyarakat yang sejahtera bermodalkan warisan budaya gotong royong dilandasi dengan karakter kota: Tangguh, Gesit, Kreatif, dan Sejahtera.</p>
+            <ul class="list-decimal list-inside mb-4 pl-12 pr-6">
+                <p><strong>Tangguh</strong> menegaskan karakter kota dan warga yang memiliki daya tahan tinggi, dan segera bangkit dari dampak negatif pandemi COVID-19, baik dalam dimensi sosial maupun dampak ekonominya. Semangat kebangkitan ini, digerakkan dari alas semangat kesetiakawanan, gotong royong warga dengan dukungan Pemerintah Kota Surakarta, dan selanjutnya menjadi pembelajaran bersama untuk menentukan respon yang tangguh untuk menghadapi tantangan dan ancaman di masa mendatang.</p>
+                <p><strong>Gesit</strong> adalah karakter pelayanan pemerintahan yang sigap membaca perubahan kebutuhan warganegara, dengan menyesuaikan pola kerja dan pola pelayanan serta reformasi birokrasi. Pemerintahan yang gesit akan memungkinkan dampak dari lompatan-lompatan yang terjadi dapat dinikmati seluruh warga Kota Surakarta.</p>
+                <p><strong>Kreatif</strong> adalah karakter kota dan warga dalam menciptakan solusi atas permasalahan bersama, dan membangun peluang-peluang usaha dari sumber daya bersama di Surakarta. Pengembangan kreativitas warga memanfaatkan energi dan potensi Surakarta yang kini telah berkontribusi dalam membangun landasan lompatan maju kota.</p>
+                <p><strong>Sejahtera</strong> adalah upaya untuk memperlemas dan memperdalam landasan "Waras-Wasis-Wareg-Mapan-Papan" (3WMP) yang telah dicapai dari tahap pembangunan Kota Surakarta periode 2016–2021. Dengan menjaga dan meningkatkan kesejahteraan umum, Surakarta terus berupaya memastikan kelangsungan hidup kota modern berbasis warisan budaya di abad 21.</p>
+            </ul>
         </section>
 
-        <section class="mb-8">
-            <h2 class="text-2xl text-center font-semibold mb-2">Tugas dan Tanggung Jawab</h2>
-            <ol class="list-decimal list-inside mb-4 pl-12 pr-6">
-                <li>Menyusun dan melaksanakan kebijakan layanan informasi publik</li>
-                <li>Menyusun laporan pelaksanaan kebijakan layanan informasi publik</li>
-                <li>Mengkoordinasikan dan mengkonsolidasikan proses penyimpanan, pendokumentasian, penyediaan, dan pelayanan informasi publik</li>
-                <li>Mengkoordinasikan dan mengkonsolidasikan pengumpulan informasi publik</li>
-                <li>Melakukan verifikasi dan dokumen informasi publik</li>
-                <li>Menentukan informasi publik yang dapat diakses publik dan layak untuk diumumkan</li>
-                <li>Melakukan pengujian tentang konsekuensi atas informasi publik yang dikecualikan</li>
-                <li>Melakukan pemeliharaan, pemeliharaan dan pemutakhiran Daftar Informasi Publik</li>
-                <li>Menyediakan informasi publik secara efektif dan efisien agar mudah diakses oleh publik</li>
-                <li>Melakukan pembinaan, pengawasan, evaluasi, dan monitoring atas pelaksanaan kebijakan dan PPID pelaksana dan/atau Petugas Pelayanan Informasi</li>
-            </ol>
-        </section>
-
+        <!-- Misi Section -->
         <section>
-            <h2 class="text-2xl text-center font-semibold mb-2">Dasar Hukum</h2>
+            <h3 class="text-xl text-center font-semibold text-gray-800 mb-4">MISI</h3>
             <ol class="list-decimal list-inside mb-4 pl-12 pr-6">
-                <li>Undang-Undang Republik Indonesia Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik;</li>
-                <li>Peraturan Pemerintah Nomor 61 Tahun 2010 tentang Pelaksanaan Undang-Undang Nomor 14 Tahun 2008;</li>
-                <li>Peraturan Menteri Dalam Negeri Nomor 3 Tahun 2017 tentang Pedoman Pengelolaan Pelayanan Informasi dan Dokumentasi Kementerian Dalam Negeri dan Pemerintahan Daerah;</li>
-                <li>Peraturan Komisi Informasi Nomor 1 Tahun 2013 tentang Prosedur Penyelesaian Sengketa Informasi Publik;</li>
-                <li>Peraturan Komisi Informasi Nomor 1 Tahun 2021 tentang Standar Layanan Informasi Publik;</li>
-                <li>Peraturan Daerah Kota Surakarta Nomor 11 Tahun 2013 tentang Keterbukaan Informasi Publik;</li>
-                <li>Keputusan Walikota Surakarta Nomor 067/121.1 Tahun 2022 tentang Pembentukan Pengelola Informasi dan Dokumentasi Pemerintah Kota Surakarta.</li>
+                <li>Pertama, meningkatkan kualitas kesehatan masyarakat yang berkelanjutan.</li>
+                <li>Kedua, memperkuat pertumbuhan ekonomi yang adaptif dan berkelanjutan.</li>
+                <li>Ketiga, mewujudkan kualitas dan daya saing pendidikan, kebudayaan, seni budaya, dan olahraga.</li>
+                <li>Keempat, meningkatkan kualitas daya dan pengelolaan pelayanan publik yang baik.</li>
+                <li>Kelima, mengembangkan tata kelola dan perencanaan yang kolaboratif berlandaskan semangat gotong royong dan kebaikan.</li>
+                <li>Keenam, mewujudkan kehidupan yang kondusif dan teratur dalam kehidupan bermasyarakat yang harmonis.</li>
             </ol>
         </section>
     </main>
+    </main>
+    
     <footer class="bg-gradient-to-r from-[#4477CE] to-[#223C68] text-white py-4 mt-6">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-12">
       <div class="text-center md:text-left mb-4 md:mb-0">
